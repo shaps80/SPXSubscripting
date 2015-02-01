@@ -8,10 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2FC7B2B8516F914F70C21AC9 /* libPods-SPXSubscripting.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA36A4CF67AC1DF4458DA3D3 /* libPods-SPXSubscripting.a */; };
-		545AF2921A7DB61F00F425AF /* NSAttributedString+SPXAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 545AF2911A7DB61F00F425AF /* NSAttributedString+SPXAdditions.m */; };
-		545AF2971A7DB62600F425AF /* NSNumber+SPXAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 545AF2941A7DB62600F425AF /* NSNumber+SPXAdditions.m */; };
-		545AF2981A7DB62600F425AF /* SPXRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 545AF2961A7DB62600F425AF /* SPXRange.m */; };
-		545AF29B1A7DB62C00F425AF /* SPXSubscripting.m in Sources */ = {isa = PBXBuildFile; fileRef = 545AF29A1A7DB62C00F425AF /* SPXSubscripting.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -289,11 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* SPXAppDelegate.m in Sources */,
-				545AF2971A7DB62600F425AF /* NSNumber+SPXAdditions.m in Sources */,
-				545AF29B1A7DB62C00F425AF /* SPXSubscripting.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				545AF2921A7DB61F00F425AF /* NSAttributedString+SPXAdditions.m in Sources */,
-				545AF2981A7DB62600F425AF /* SPXRange.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
