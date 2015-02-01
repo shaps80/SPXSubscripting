@@ -1,0 +1,5 @@
+#include "Pods-SPXSubscripting-SPXSubscripting.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/SPXSubscripting" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/SPXSubscripting"
+OTHER_LDFLAGS = -ObjC
+PODS_ROOT = ${SRCROOT}
